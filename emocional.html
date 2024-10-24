@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Emocional - Tu Futuro Importa</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff69b4;
+            --secondary: #e6e6fa;
+            --text: #333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+              font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: var(--primary);
+            padding: 1rem;
+            color: white;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .topic-card {
+            display: flex;
+            align-items: center;
+            background: var(--secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            gap: 2rem;
+        }
+
+        .topic-card:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .topic-content {
+            flex: 2;
+        }
+
+        .topic-image {
+            flex: 1;
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .topic-image:hover {
+            transform: scale(1.05);
+        }
+
+        .tip-box {
+            background: var(--tip);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .tip-box {
+            background: #fff3f8;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        .button {
+            background: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        .hero {
+            color: var(--primary);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>💫 Tu Futuro Importa 💫</h1>
+    </nav>
+    <div class="hero">
+        <center><img src="saludmental.png"></center>
+
+        <h1>Salud Emocional</h1>
+         <strong><p>Planifica, Protégete, Prospera</p></strong>
+    </div>
+
+    <div class="content">
+        <h2>❤️ Cuidando tu Bienestar Emocional ❤️</h2>
+        <p>Tu salud emocional es tan importante como tu salud física. Aquí encontrarás información y consejos para mantener un equilibrio emocional saludable.</p>
+
+                <div class="topic-card">
+            <div class="topic-content">
+                <h3>Autoestima y Amor Propio</h3>
+                <p>Desarrollar una autoestima saludable es fundamental para tomar decisiones que nos beneficien.</p>
+                <div class="tip-box">
+                    <h4>Tips para fortalecer tu autoestima:</h4>
+                    <ul>
+                        <li>Reconoce tus logros, por pequeños que sean</li>
+                        <li>Aprende a decir "no" cuando algo no te hace sentir cómoda</li>
+                        <li>Rodéate de personas que te apoyen y valoren</li>
+                        <li>Practica el autocuidado diariamente</li>
+                        <li>Celebra tus cualidades únicas</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="autoestima.webp" alt="Autoestima y amor propio" class="topic-image">
+        </div>
+
+        <div class="topic-card">
+            <div class="topic-content">
+                <h3>Relaciones Saludables</h3>
+                <p>Una relación saludable se basa en el respeto mutuo, la comunicación y la confianza.</p>
+                <div class="tip-box">
+                    <h4>Señales de una relación saludable:</h4>
+                    <ul>
+                        <li>Respeto por las decisiones y límites del otro</li>
+                        <li>Comunicación abierta y honesta</li>
+                        <li>Apoyo mutuo en metas y aspiraciones</li>
+                        <li>Espacios para el crecimiento individual</li>
+                        <li>Confianza y comprensión mutua</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="relacion.png" alt="Relaciones saludables" class="topic-image">
+        </div>
+
+        <div class="topic-card">
+            <div class="topic-content">
+                <h3>Manejo del Estrés</h3>
+                <p>Es normal sentir estrés, pero es importante aprender a manejarlo de forma saludable.</p>
+                <div class="tip-box">
+                    <h4>Técnicas para manejar el estrés:</h4>
+                    <ul>
+                        <li>Practica ejercicios de respiración consciente</li>
+                        <li>Mantén una rutina de ejercicio regular</li>
+                        <li>Habla con alguien de confianza sobre tus preocupaciones</li>
+                        <li>Dedica tiempo a actividades que disfrutes</li>
+                        <li>Establece límites saludables en tus actividades</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="estres.jpg" alt="Manejo del estrés" class="topic-image">
+        </div>
+
+        <div class="topic-card">
+            <div class="topic-content">
+                <h3>Cuándo Buscar Ayuda</h3>
+                <p>Buscar ayuda profesional es una señal de fortaleza, no de debilidad.</p>
+                <div class="tip-box">
+                    <h4>Es importante buscar ayuda si experimentas:</h4>
+                    <ul>
+                        <li>Cambios significativos en tus hábitos de sueño o alimentación</li>
+                        <li>Sentimientos persistentes de tristeza o ansiedad</li>
+                        <li>Dificultad para concentrarte o tomar decisiones</li>
+                        <li>Pensamientos negativos recurrentes</li>
+                        <li>Sensación de soledad o aislamiento</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="duda.jpg" alt="Buscar ayuda profesional" class="topic-image">
+        </div>
+
+
+        <p>Recuerda: Tus emociones son válidas y es importante cuidar tu salud mental.</p>
+
+        <a href="#" class="button" onclick="window.history.back()">Volver a la página principal</a>
+    </div>
+        <footer class="footer">
+        <p>Colegio de Señoritas El Rosario - Guatemala</p>
+        <p>15 Calle A 2-74 zona 1, Ciudad de Guatemala</p>
+        <br>
+        <p>Promoción de una guía interactiva para la prevención de Embarazos Tempranos en <br>
+Adolescentes de 14 a 19 Años del Colegio de Señoritas El Rosario, Guatemala, Guatemala, <br>
+septiembre 2024</p>
+        <br>
+        <a href="Proyecto final de promoción de salud.pdf" style="color:white;"><strong>Ver detalles del proyecto aquí</strong></a>
+       <br>
+       <br>
+            <p>Desarrollado con el apoyo de <strong><a href="http://pepemiranda.net" style="color:white;">Pepe Miranda</a></strong></p>
+    </footer>
+
+</body>
+</html>
